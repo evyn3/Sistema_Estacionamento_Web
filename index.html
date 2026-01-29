@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Park</title>
+    <link rel="icon" type="image/png" href="imagens/car.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <!-- <img class="logo" src="imagens/logo2.png" alt="Elite Park"> -->
+        <!-- <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><button id="button1" type="button">Login</button></li>
+                <li><button id="button2" type="button">Cadastre-se</button></li>
+            </ul>
+    
+        </nav> -->
+        <nav class="nav">
+            <!-- Logo -->
+            <a href="#" class="logo-link">
+                <img class="logo" src="imagens/logo2.png" alt="Elite Park">
+            </a>
+
+            <!-- Menu Desktop -->
+            <ul class="menu-desktop">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><button class="btn-login">Login</button></li>
+                <li><button class="btn-cadastro">Cadastre-se</button></li>
+            </ul>
+
+            <!-- Botão Hambúrguer -->
+            <button class="menu-btn">☰</button>
+
+            <!-- Menu Mobile -->
+            <div class="menu-mobile">
+                <a href="#">Home</a>
+                <a href="#">Contato</a>
+                <a href="#">Sobre</a>
+                <a href="#">Serviços</a>
+                <button class="btn-login">Login</button>
+                <button class="btn-cadastro">Cadastre-se</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 class="hero-title">Bem-vindo ao Elite Park</h1>
+        <p class="hero-subtitle">Estacione com segurança, conforto e praticidade — o seu veículo em boas mãos, 24 horas por dia.</p>
+    </section>
+
+    <div class="container">
+        <section class="cards">
+            <div class="card">
+                <img src="imagens/img_seg.jpg" alt="Segurança" class="card-image">
+                <h2 class="card-title">Segurança 24h</h2>
+                <p class="card-description">Câmeras de monitoramento, vigilância constante e equipe treinada garantem a proteção do seu veículo em tempo integral.</p>
+            </div>
+            <div class="card">
+                <img src="imagens/img_est.jpg" alt="Conveniência" class="card-image">
+                <h2 class="card-title">Conveniência</h2>
+                <p class="card-description">Localizado em pontos estratégicos da cidade, o Elite Park oferece acesso rápido aos principais centros comerciais e empresariais.</p>
+            </div>
+            <div class="card">
+                <img src="imagens/img_money.jpg" alt="Preços Competitivos" class="card-image">
+                <h2 class="card-title">Preços Competitivos</h2>
+                <p class="card-description">Tarifas justas e opções flexíveis para estacionamento diário, mensal ou por hora. Economia sem abrir mão da qualidade.</p>
+            </div>
+        </section>
+
+        <div class="texto">
+            <article>
+                <h2>Sobre o Elite Park</h2>
+                <p>O Elite Park nasceu com o propósito de transformar a forma como você estaciona. Unindo tecnologia, conforto e segurança, oferecemos um espaço moderno e acessível para motoristas que valorizam praticidade e confiança.
+                Nosso compromisso é com a excelência no atendimento e a tranquilidade de saber que o seu veículo está protegido por quem entende do assunto.</p>
+            </article>
+            <article>
+                <h2>Nossos Serviços</h2>
+                <p>Contamos com vagas cobertas, monitoramento 24 horas, área VIP e sistema de pagamento digital.
+                Seja para estacionar por alguns minutos ou por longos períodos, temos o plano ideal para você.</p>
+            </article>
+            <article>
+                <h2>Contato</h2>
+                <p>Entre em contato conosco para tirar dúvidas, reservar sua vaga ou solicitar um orçamento empresarial.
+                Nossa equipe está à disposição para atendê-lo com rapidez e atenção. <br>
+                <br>
+                📍 Localização: Centro da cidade – fácil acesso e total segurança. <br>
+                📧 E-mail: contato@elitepark.com.br <br>
+                ☎️ Telefone: (74) 99999-9999</p>
+            </article>
+        </div>
+    </div>
+
+    <!-- <div class="slider">
+        <img src="imagens/img1.avif" alt="Imagem 1" class="slider-image">
+        <img src="imagens/img2.jpg" alt="Imagem 2" class="slider-image">
+        <img src="imagens/img3.jpg" alt="Imagem 3" class="slider-image">
+        <img src="imagens/img4.jpg" alt="Imagem 4" class="slider-image">
+    </div> -->
+
+    <div class="slider-container">
+    <div class="slider-wrapper">
+        <img src="imagens/img1.avif" alt="Imagem 1" class="slide active">
+        <img src="imagens/img2.jpg" alt="Imagem 2" class="slide">
+        <img src="imagens/img3.jpg" alt="Imagem 3" class="slide">
+        <img src="imagens/img4.jpg" alt="Imagem 4" class="slide">
+    </div>
+
+    <!-- Setas -->
+    <button class="prev-btn" aria-label="Imagem anterior">❮</button>
+    <button class="next-btn" aria-label="Próxima imagem">❯</button>
+
+    <!-- Dots -->
+    <div class="dots">
+        <span class="dot active" data-slide="0"></span>
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+        <span class="dot" data-slide="3"></span>
+    </div>
+</div>
+
+    <section class="post-slider">
+        <div class="post-slider-content">
+            <h2>Estacione com tranquilidade</h2>
+            <p>No Elite Park, você encontra muito mais do que um estacionamento.
+            Oferecemos segurança, conforto e tecnologia para tornar o seu dia mais fácil.
+            Venha conhecer o estacionamento que é referência em qualidade e atendimento.</p>
+            <a href="#contato" class="cta-btn">Fale Conosco</a>
+        </div>
+    </section>
+
+    <!-- <footer class="footer">
+        <p>&copy; 2024 Elite Park. Todos os direitos reservados.</p>
+    </footer> -->
+
+    <footer class="footer">
+    <div class="footer-content">
+        <div class="contact-info">
+            <a href="https://instagram.com/elitepark" target="_blank" class="contact-item">
+                <span>@elitepark</span>
+            </a>
+            <a href="mailto:contato@elitepark.com.br" class="contact-item">
+                <span>contato@elitepark.com.br</span>
+            </a>
+            <a href="tel:+5574999999999" class="contact-item">
+                <span>(74) 99999-9999</span>
+            </a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Elite Park. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
