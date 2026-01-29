@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #f2f4f8;
+  }
+  
+  /* HEADER */
+  .header {
+    background: #1f3cff;
+    padding: 15px 30px;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .logo .p {
+    background: #4f7cff;
+    padding: 4px 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+  }
+  
+  /* CONTAINER */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+  }
+  
+  /* IMAGEM */
+  .image-box {
+    background: #fff;
+    padding: 20px;
+  }
+  
+  .image-box img {
+    width: 420px;
+  }
+  
+  /* CARD */
+  .card {
+    background: #fff;
+    padding: 45px;
+    width: 380px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
+  .card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* FORM */
+  .row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  
+  .field {
+    flex: 1;
+  }
+  
+  .field label {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .field input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* BOTÕES */
+  .btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .primary {
+    background: #1f3cff;
+    color: #fff;
+  }
+  
+  .cancel {
+    background: transparent;
+    border: 1px solid #1f3cff;
+    color: #1f3cff;
+  }
+  
+  /* MODAL */
+  .modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-box {
+    background: #dbe2ff;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .modal-box button {
+    margin-top: 15px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+    background: #1f3cff;
+    color: #fff;
+  }
+  
