@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Perfil</title>
+    <link rel="stylesheet" href="css/editar-perfil.css">
+</head>
+<body>
+
+<header class="header">
+    <img src="imagens/logo2.png" class="logo" alt="Elite Park">
+</header>
+
+<main class="container">
+    <div class="card">
+        <h2>Editar Perfil</h2>
+
+        <form id="formEditar">
+
+            <div class="input-group">
+                <label>Nome</label>
+                <input type="text" id="nome" required>
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="input-group">
+                <label>Telefone</label>
+                <input type="text" id="telefone" required>
+            </div>
+
+            <div class="input-group">
+                <label>CNH</label>
+                <input type="text" id="cnh" required>
+            </div>
+
+            <div class="input-group">
+                <label>Nova senha (opcional)</label>
+                <input type="password" id="senha">
+            </div>
+
+            <div class="buttons">
+                <button type="submit" class="btn salvar">Salvar</button>
+                <button type="button" class="btn voltar" onclick="voltar()">Cancelar</button>
+            </div>
+
+        </form>
+    </div>
+</main>
+
+<script src="js/editar-perfil.js"></script>
+</body>
+</html>
